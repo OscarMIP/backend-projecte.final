@@ -1,0 +1,48 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Ana García",
+      "correo": "ana.garcia@email.com",
+      "partidas_ganadas": 2
+    },
+    {
+      "id": 2,
+      "nombre": "Luis Pérez",
+      "correo": "luis.perez@email.com",
+      "partidas_ganadas": 1
+    }
+  ],
+  "partidas": [
+    {
+      "id": 1,
+      "usuarioId": 1,
+      "fecha": "2025-05-28T20:00:00Z",
+      "resultado": "ganada"
+    },
+    {
+      "id": 2,
+      "usuarioId": 1,
+      "fecha": "2025-05-28T21:00:00Z",
+      "resultado": "ganada"
+    },
+    {
+      "id": 3,
+      "usuarioId": 1,
+      "fecha": "2025-05-28T22:00:00Z",
+      "resultado": "perdida"
+    },
+    {
+      "id": 4,
+      "usuarioId": 2,
+      "fecha": "2025-05-28T20:30:00Z",
+      "resultado": "ganada"
+    },
+    {
+      "id": 5,
+      "usuarioId": 2,
+      "fecha": "2025-05-28T21:30:00Z",
+      "resultado": "perdida"
+    }
+  ]
+}
