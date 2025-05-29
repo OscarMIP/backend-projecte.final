@@ -4,13 +4,41 @@
       "id": 1,
       "nombre": "Ana García",
       "correo": "ana.garcia@email.com",
-      "partidas_ganadas": 2
+      "password": "1234",
+      "stats": {
+        "gamesPlayed": 3,
+        "gamesWon": 2
+      }
     },
     {
       "id": 2,
       "nombre": "Luis Pérez",
       "correo": "luis.perez@email.com",
-      "partidas_ganadas": 1
+      "password": "1234",
+      "stats": {
+        "gamesPlayed": 2,
+        "gamesWon": 1
+      }
+    },
+    {
+      "id": 1748511584474,
+      "nombre": "arnau",
+      "correo": "arnau.costa@mataro.epiaedu.cat",
+      "password": "123456",
+      "stats": {
+        "gamesPlayed": 0,
+        "gamesWon": 0
+      }
+    },
+    {
+      "id": 1748512456947,
+      "nombre": "arnau2",
+      "correo": "arnau.costa@mataro.epiaedu",
+      "password": "12345678",
+      "stats": {
+        "gamesPlayed": 0,
+        "gamesWon": 0
+      }
     }
   ],
   "partidas": [

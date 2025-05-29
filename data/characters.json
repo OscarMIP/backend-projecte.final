@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "img": "characters_images/kratos.webp",
+    "character": "Kratos",
+    "type": "offensive",
+    "health": 1000,
+    "attackPower": 95,
+    "specialAbility": {
+      "name": "Spartan Rage",
+      "type": "attack",
+      "value": 150
+    },
+    "info": "Former Spartan warrior with immense strength and the power of Spartan Rage. Wields the legendary Leviathan Axe and Blades of Chaos"
+  },
+  {
+    "id": 2,
+    "img": "characters_images/atreus.webp",
+    "character": "Atreus",
+    "type": "offensive",
+    "health": 600,
+    "attackPower": 75,
+    "specialAbility": {
+      "name": "Runic Arrows",
+      "type": "attack",
+      "value": 85
+    },
+    "info": "Skilled young archer with divine blood, capable of using powerful runic arrows and summoning mystical creatures"
+  },
+  {
+    "id": 3,
+    "img": "characters_images/baldur.webp",
+    "character": "Baldur",
+    "type": "offensive",
+    "health": 950,
+    "attackPower": 90,
+    "specialAbility": {
+      "name": "Invulnerability",
+      "type": "defense",
+      "value": 200
+    },
+    "info": "Norse god blessed with invulnerability, possessing superhuman strength and the ability to harness light and ice powers"
+  },
+  {
+    "id": 4,
+    "img": "characters_images/freya.webp",
+    "character": "Freya",
+    "type": "defensive",
+    "health": 800,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Vanir Magic",
+      "type": "defense",
+      "value": 120
+    },
+    "info": "Former Valkyrie Queen with mastery over Vanir magic, capable of powerful spells and nature manipulation"
+  },
+  {
+    "id": 5,
+    "img": "characters_images/mimir.webp",
+    "character": "Mimir",
+    "type": "defensive",
+    "health": 500,
+    "attackPower": 40,
+    "specialAbility": {
+      "name": "Knowledge Shield",
+      "type": "defense",
+      "value": 80
+    },
+    "info": "The wisest being alive, possessing vast knowledge of the Nine Realms and ancient magic"
+  },
+  {
+    "id": 6,
+    "img": "characters_images/huldrabrothers.webp",
+    "character": "Huldra Brothers",
+    "type": "defensive",
+    "health": 700,
+    "attackPower": 60,
+    "specialAbility": {
+      "name": "Weapon Enhancement",
+      "type": "defense",
+      "value": 90
+    },
+    "info": "Legendary dwarven smiths Brok and Sindri, masters of weapon crafting and magical enhancement"
+  },
+  {
+    "id": 7,
+    "img": "characters_images/thor.webp",
+    "character": "Thor",
+    "type": "offensive",
+    "health": 1200,
+    "attackPower": 100,
+    "specialAbility": {
+      "name": "Lightning Strike",
+      "type": "attack",
+      "value": 180
+    },
+    "info": "God of Thunder wielding the mighty Mjolnir, master of lightning and storms with incredible strength"
+  },
+  {
+    "id": 8,
+    "img": "characters_images/ares.webp",
+    "character": "Ares",
+    "type": "offensive",
+    "health": 900,
+    "attackPower": 85,
+    "specialAbility": {
+      "name": "God of War Fury",
+      "type": "attack",
+      "value": 140
+    },
+    "info": "Greek God of War with the power to control armies and unleash devastating combat abilities"
+  },
+  {
+    "id": 9,
+    "img": "characters_images/colossus_of_rhodes.webp",
+    "character": "Colossus of Rhodes",
+    "type": "defensive",
+    "health": 1500,
+    "attackPower": 60,
+    "specialAbility": {
+      "name": "Bronze Shield",
+      "type": "defense",
+      "value": 160
+    },
+    "info": "Massive bronze statue brought to life by divine power, with incredible defensive capabilities"
+  },
+  {
+    "id": 10,
+    "img": "characters_images/deimos.webp",
+    "character": "Deimos",
+    "type": "offensive",
+    "health": 850,
+    "attackPower": 80,
+    "specialAbility": {
+      "name": "Spartan Strength",
+      "type": "attack",
+      "value": 130
+    },
+    "info": "Powerful Spartan warrior with exceptional combat skills and superhuman strength"
+  },
+  {
+    "id": 11,
+    "img": "characters_images/thanatos.webp",
+    "character": "Thanatos",
+    "type": "offensive",
+    "health": 1100,
+    "attackPower": 95,
+    "specialAbility": {
+      "name": "Death Touch",
+      "type": "attack",
+      "value": 170
+    },
+    "info": "Greek god of death with the power to control souls and unleash devastating dark magic"
+  },
+  {
+    "id": 12,
+    "img": "characters_images/týr.webp",
+    "character": "Týr",
+    "type": "defensive",
+    "health": 950,
+    "attackPower": 75,
+    "specialAbility": {
+      "name": "War Protection",
+      "type": "defense",
+      "value": 140
+    },
+    "info": "Norse god of war and justice, master of combat strategy and protective magic"
+  },
+  {
+    "id": 13,
+    "img": "characters_images/odin.webp",
+    "character": "Odin",
+    "type": "offensive",
+    "health": 1300,
+    "attackPower": 90,
+    "specialAbility": {
+      "name": "All-Father's Wrath",
+      "type": "attack",
+      "value": 190
+    },
+    "info": "All-Father of Norse gods, wielding powerful magic and Gungnir, his legendary spear"
+  },
+  {
+    "id": 14,
+    "img": "characters_images/hermes.webp",
+    "character": "Hermes",
+    "type": "offensive",
+    "health": 700,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Speed Strike",
+      "type": "attack",
+      "value": 110
+    },
+    "info": "Greek god of speed, equipped with winged sandals that grant incredible agility and swift attacks"
+  },
+  {
+    "id": 15,
+    "img": "characters_images/poseidon.webp",
+    "character": "Poseidon",
+    "type": "offensive",
+    "health": 1000,
+    "attackPower": 85,
+    "specialAbility": {
+      "name": "Tidal Wave",
+      "type": "attack",
+      "value": 160
+    },
+    "info": "Greek god of the seas who commands water and can create devastating tidal waves"
+  },
+  {
+    "id": 16,
+    "img": "characters_images/zeus.webp",
+    "character": "Zeus",
+    "type": "offensive",
+    "health": 1400,
+    "attackPower": 100,
+    "specialAbility": {
+      "name": "Lightning Bolt",
+      "type": "attack",
+      "value": 200
+    },
+    "info": "King of the Greek gods, master of lightning and thunder with supreme divine power"
+  },
+  {
+    "id": 17,
+    "img": "characters_images/athena.webp",
+    "character": "Athena",
+    "type": "defensive",
+    "health": 900,
+    "attackPower": 65,
+    "specialAbility": {
+      "name": "Divine Shield",
+      "type": "defense",
+      "value": 150
+    },
+    "info": "Greek goddess of wisdom and strategic warfare, wielding the Aegis shield"
+  },
+  {
+    "id": 18,
+    "img": "characters_images/hades.webp",
+    "character": "Hades",
+    "type": "offensive",
+    "health": 1100,
+    "attackPower": 85,
+    "specialAbility": {
+      "name": "Soul Capture",
+      "type": "attack",
+      "value": 140
+    },
+    "info": "Lord of the Underworld with the power to command souls and wield the Claws of Hades"
+  },
+  {
+    "id": 19,
+    "img": "characters_images/helios.webp",
+    "character": "Helios",
+    "type": "offensive",
+    "health": 800,
+    "attackPower": 75,
+    "specialAbility": {
+      "name": "Blinding Light",
+      "type": "attack",
+      "value": 120
+    },
+    "info": "Greek god of the sun who can harness powerful light-based attacks and reveal hidden truths"
+  },
+  {
+    "id": 20,
+    "img": "characters_images/hercules.webp",
+    "character": "Hercules",
+    "type": "offensive",
+    "health": 1200,
+    "attackPower": 95,
+    "specialAbility": {
+      "name": "Nemean Cestus",
+      "type": "attack",
+      "value": 150
+    },
+    "info": "Legendary Greek hero with superhuman strength, wielding the powerful Nemean Cestus"
+  },
+  {
+    "id": 21,
+    "img": "characters_images/magni.webp",
+    "character": "Magni",
+    "type": "offensive",
+    "health": 900,
+    "attackPower": 80,
+    "specialAbility": {
+      "name": "Thunder Strike",
+      "type": "attack",
+      "value": 130
+    },
+    "info": "Son of Thor with incredible strength and the ability to channel lightning through his weapons"
+  },
+  {
+    "id": 22,
+    "img": "characters_images/modi.webp",
+    "character": "Modi",
+    "type": "defensive",
+    "health": 850,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Lightning Shield",
+      "type": "defense",
+      "value": 120
+    },
+    "info": "Son of Thor skilled in defensive combat and lightning-based abilities"
+  },
+  {
+    "id": 23,
+    "img": "characters_images/cronos.webp",
+    "character": "Cronos",
+    "type": "defensive",
+    "health": 1500,
+    "attackPower": 100,
+    "specialAbility": {
+      "name": "Titan's Defense",
+      "type": "defense",
+      "value": 160
+    },
+    "info": "Mighty Titan with control over time and immense physical power"
+  },
+  {
+    "id": 24,
+    "img": "characters_images/gaia.webp",
+    "character": "Gaia",
+    "type": "defensive",
+    "health": 1500,
+    "attackPower": 85,
+    "specialAbility": {
+      "name": "Earth's Protection",
+      "type": "defense",
+      "value": 150
+    },
+    "info": "Primordial earth goddess with the power to control nature and provide powerful defensive abilities"
+  },
+  {
+    "id": 25,
+    "img": "characters_images/persephone.webp",
+    "character": "Persephone",
+    "type": "offensive",
+    "health": 850,
+    "attackPower": 75,
+    "specialAbility": {
+      "name": "Underworld Power",
+      "type": "attack",
+      "value": 120
+    },
+    "info": "Queen of the Underworld with command over dark magic and the forces of nature"
+  },
+  {
+    "id": 26,
+    "img": "characters_images/sisters_of_fate.webp",
+    "character": "Sisters of Fate",
+    "type": "defensive",
+    "health": 900,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Fate's Shield",
+      "type": "defense",
+      "value": 140
+    },
+    "info": "Three powerful beings who control destiny and can manipulate time itself"
+  },
+  {
+    "id": 27,
+    "img": "characters_images/valkyrie_sigrun.webp",
+    "character": "Sigrun",
+    "type": "offensive",
+    "health": 1100,
+    "attackPower": 90,
+    "specialAbility": {
+      "name": "Valhalla Strike",
+      "type": "attack",
+      "value": 160
+    },
+    "info": "Valkyrie Queen with mastery over aerial combat and devastating magical attacks"
+  },
+  {
+    "id": 28,
+    "img": "characters_images/faye.webp",
+    "character": "Faye",
+    "type": "defensive",
+    "health": 800,
+    "attackPower": 65,
+    "specialAbility": {
+      "name": "Giant's Protection",
+      "type": "defense",
+      "value": 130
+    },
+    "info": "Last Guardian of the Giants with powerful nature magic and prophetic abilities"
+  },
+  {
+    "id": 29,
+    "img": "characters_images/brok.webp",
+    "character": "Brok",
+    "type": "defensive",
+    "health": 600,
+    "attackPower": 50,
+    "specialAbility": {
+      "name": "Dwarven Shield",
+      "type": "defense",
+      "value": 100
+    },
+    "info": "Master dwarven craftsman specializing in weapon enhancement and magical armor"
+  },
+  {
+    "id": 30,
+    "img": "characters_images/sindri.webp",
+    "character": "Sindri",
+    "type": "defensive",
+    "health": 600,
+    "attackPower": 50,
+    "specialAbility": {
+      "name": "Mystic Barrier",
+      "type": "defense",
+      "value": 100
+    },
+    "info": "Skilled dwarven smith with expertise in magical enchantments and protective runes"
+  },
+  {
+    "id": 31,
+    "img": "characters_images/draugr_elite.webp",
+    "character": "Draugr",
+    "type": "offensive",
+    "health": 800,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Fallen Warriors' Rage",
+      "type": "attack",
+      "value": 140
+    },
+    "info": "Undead Norse warriors with supernatural strength and ancient combat skills"
+  },
+  {
+    "id": 32,
+    "img": "characters_images/freyr.webp",
+    "character": "Freyr",
+    "type": "offensive",
+    "health": 950,
+    "attackPower": 80,
+    "specialAbility": {
+      "name": "Vanir Blade",
+      "type": "attack",
+      "value": 150
+    },
+    "info": "Vanir god of prosperity with powerful light magic and masterful swordsmanship"
+  },
+  {
+    "id": 33,
+    "img": "characters_images/heimdallr.webp",
+    "character": "Heimdall",
+    "type": "defensive",
+    "health": 900,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Frostbite",
+      "type": "defense",
+      "value": 120
+    },
+    "info": "All-seeing guardian of Bifrost with enhanced senses and the mighty Gjallarhorn"
+  },
+  {
+    "id": 34,
+    "img": "characters_images/hera.webp",
+    "character": "Hera",
+    "type": "defensive",
+    "health": 850,
+    "attackPower": 65,
+    "specialAbility": {
+      "name": "Queen's Curse",
+      "type": "defense",
+      "value": 110
+    },
+    "info": "Queen of the Greek gods with powers of divine authority and mystical curses"
+  },
+  {
+    "id": 35,
+    "img": "characters_images/pandora.webp",
+    "character": "Pandora",
+    "type": "defensive",
+    "health": 500,
+    "attackPower": 40,
+    "specialAbility": {
+      "name": "Hope's Light",
+      "type": "defense",
+      "value": 100
+    },
+    "info": "Mystical being with the power of Hope, capable of overcoming any darkness"
+  },
+  {
+    "id": 36,
+    "img": "characters_images/berserkers.webp",
+    "character": "Berserkers",
+    "type": "offensive",
+    "health": 900,
+    "attackPower": 85,
+    "specialAbility": {
+      "name": "Fallen Warriors' Rage",
+      "type": "attack",
+      "value": 140
+    },
+    "info": "Fierce Norse warriors who fight with uncontrollable rage and superhuman strength, feared across all realms"
+  },
+  {
+    "id": 37,
+    "img": "characters_images/aphrodite.webp",
+    "character": "Aphrodite",
+    "type": "defensive",
+    "health": 800,
+    "attackPower": 60,
+    "specialAbility": {
+      "name": "Charm Shield",
+      "type": "defense",
+      "value": 150
+    },
+    "info": "Goddess of love and beauty with the power to create protective barriers through divine charm"
+  },
+  {
+    "id": 38,
+    "img": "characters_images/angrboda.webp",
+    "character": "Angrboda",
+    "type": "defensive",
+    "health": 900,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Giant's Protection",
+      "type": "defense",
+      "value": 160
+    },
+    "info": "Powerful Jötunn with ancient protective magic and the ability to foresee threats"
+  },
+  {
+    "id": 39,
+    "img": "characters_images/hephaestus.webp",
+    "character": "Hephaestus",
+    "type": "defensive",
+    "health": 1000,
+    "attackPower": 65,
+    "specialAbility": {
+      "name": "Forge Shield",
+      "type": "defense",
+      "value": 180
+    },
+    "info": "God of craftsmanship and fire, capable of creating powerful defensive artifacts"
+  },
+  {
+    "id": 40,
+    "img": "characters_images/aegaeon.webp",
+    "character": "Aegaeon",
+    "type": "defensive",
+    "health": 1200,
+    "attackPower": 55,
+    "specialAbility": {
+      "name": "Hecatonchires Guard",
+      "type": "defense",
+      "value": 190
+    },
+    "info": "The great Hecatonchires with immense defensive capabilities and multiple arms for protection"
+  },
+  {
+    "id": 41,
+    "img": "characters_images/charybdis.webp",
+    "character": "Charybdis",
+    "type": "defensive",
+    "health": 1300,
+    "attackPower": 65,
+    "specialAbility": {
+      "name": "Whirlpool Shield",
+      "type": "defense",
+      "value": 175
+    },
+    "info": "Sea monster capable of creating powerful defensive whirlpools and water barriers"
+  },
+  {
+    "id": 42,
+    "img": "characters_images/juggernaut.webp",
+    "character": "Juggernaut",
+    "type": "defensive",
+    "health": 1500,
+    "attackPower": 80,
+    "specialAbility": {
+      "name": "Unstoppable Force",
+      "type": "defense",
+      "value": 195
+    },
+    "info": "An unstoppable force of nature with incredible defensive capabilities and endurance"
+  },
+  {
+    "id": 43,
+    "img": "characters_images/tisiphone.webp",
+    "character": "Tisiphone",
+    "type": "defensive",
+    "health": 900,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Fury's Barrier",
+      "type": "defense",
+      "value": 160
+    },
+    "info": "One of the Furies, wielding dark magic to create impenetrable defensive barriers"
+  },
+  {
+    "id": 44,
+    "img": "characters_images/alecto.webp",
+    "character": "Alecto",
+    "type": "offensive",
+    "health": 850,
+    "attackPower": 95,
+    "specialAbility": {
+      "name": "Fury's Wrath",
+      "type": "attack",
+      "value": 180
+    },
+    "info": "The unceasing Fury who punishes moral crimes with relentless aggression and fierce attacks"
+  },
+  {
+    "id": 45,
+    "img": "characters_images/megaera.webp",
+    "character": "Megaera",
+    "type": "offensive",
+    "health": 800,
+    "attackPower": 90,
+    "specialAbility": {
+      "name": "Jealous Rage",
+      "type": "attack",
+      "value": 170
+    },
+    "info": "The jealous Fury who specializes in punishing unfaithfulness with devastating attacks"
+  },
+  {
+    "id": 46,
+    "img": "characters_images/pollux_&_castor.webp",
+    "character": "Pollux and Castor",
+    "type": "offensive",
+    "health": 1100,
+    "attackPower": 85,
+    "specialAbility": {
+      "name": "Twin Strike",
+      "type": "attack",
+      "value": 165
+    },
+    "info": "The divine twins who combine their strengths in perfect harmony to deliver devastating synchronized attacks"
+  },
+  {
+    "id": 47,
+    "img": "characters_images/perseus.webp",
+    "character": "Perseus",
+    "type": "offensive",
+    "health": 1200,
+    "attackPower": 95,
+    "specialAbility": {
+      "name": "Divine Sword Strike",
+      "type": "attack",
+      "value": 180
+    },
+    "info": "Legendary Greek hero known for his divine weapons and tactical combat skills"
+  },
+  {
+    "id": 48,
+    "img": "characters_images/hyperion.webp",
+    "character": "Hyperion",
+    "type": "offensive",
+    "health": 1400,
+    "attackPower": 100,
+    "specialAbility": {
+      "name": "Solar Burst",
+      "type": "attack",
+      "value": 190
+    },
+    "info": "Titan of light and power, wielding devastating solar-based attacks"
+  },
+  {
+    "id": 49,
+    "img": "characters_images/euryale.webp",
+    "character": "Euryale",
+    "type": "defensive",
+    "health": 1500,
+    "attackPower": 65,
+    "specialAbility": {
+      "name": "Petrifying Gaze",
+      "type": "defense",
+      "value": 200
+    },
+    "info": "Gorgon sister with powerful defensive abilities and petrifying gaze"
+  },
+  {
+    "id": 50,
+    "img": "characters_images/argos.webp",
+    "character": "Argos",
+    "type": "defensive",
+    "health": 1350,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "All-Seeing Shield",
+      "type": "defense",
+      "value": 195
+    },
+    "info": "The hundred-eyed guardian with exceptional defensive capabilities"
+  },
+  {
+    "id": 51,
+    "img": "characters_images/medusa.webp",
+    "character": "Medusa",
+    "type": "offensive",
+    "health": 850,
+    "attackPower": 85,
+    "specialAbility": {
+      "name": "Stone Gaze",
+      "type": "attack",
+      "value": 160
+    },
+    "info": "The most famous Gorgon, whose gaze turns enemies to stone and wields deadly serpentine powers"
+  },
+  {
+    "id": 52,
+    "img": "characters_images/orion.webp",
+    "character": "Orion",
+    "type": "offensive",
+    "health": 900,
+    "attackPower": 88,
+    "specialAbility": {
+      "name": "Celestial Hunt",
+      "type": "attack",
+      "value": 145
+    },
+    "info": "Legendary hunter blessed with divine strength and unmatched archery skills"
+  },
+  {
+    "id": 53,
+    "img": "characters_images/atalanta.webp",
+    "character": "Atalanta",
+    "type": "offensive",
+    "health": 750,
+    "attackPower": 82,
+    "specialAbility": {
+      "name": "Swift Strike",
+      "type": "attack",
+      "value": 130
+    },
+    "info": "Swift huntress renowned for her speed and deadly accuracy with a bow"
+  },
+  {
+    "id": 54,
+    "img": "characters_images/empusa.webp",
+    "character": "Empusa",
+    "type": "offensive",
+    "health": 700,
+    "attackPower": 78,
+    "specialAbility": {
+      "name": "Life Drain",
+      "type": "attack",
+      "value": 140
+    },
+    "info": "Shapeshifting demon who drains the life force from her enemies"
+  },
+  {
+    "id": 55,
+    "img": "characters_images/prometheus.webp",
+    "character": "Prometheus",
+    "type": "offensive",
+    "health": 1100,
+    "attackPower": 90,
+    "specialAbility": {
+      "name": "Divine Fire",
+      "type": "attack",
+      "value": 170
+    },
+    "info": "The Titan who gifted fire to humanity, wielding eternal flame as his weapon"
+  },
+  {
+    "id": 56,
+    "img": "characters_images/nyx.webp",
+    "character": "Nyx",
+    "type": "defensive",
+    "health": 1200,
+    "attackPower": 65,
+    "specialAbility": {
+      "name": "Night's Veil",
+      "type": "defense",
+      "value": 180
+    },
+    "info": "Primordial goddess of night who commands darkness and shadow"
+  },
+  {
+    "id": 57,
+    "img": "characters_images/scylla.webp",
+    "character": "Scylla",
+    "type": "defensive",
+    "health": 1300,
+    "attackPower": 75,
+    "specialAbility": {
+      "name": "Tentacle Shield",
+      "type": "defense",
+      "value": 160
+    },
+    "info": "Multi-headed sea monster with powerful defensive capabilities"
+  },
+  {
+    "id": 58,
+    "img": "characters_images/asterius.webp",
+    "character": "Asterius",
+    "type": "defensive",
+    "health": 1400,
+    "attackPower": 85,
+    "specialAbility": {
+      "name": "Labyrinth Guard",
+      "type": "defense",
+      "value": 165
+    },
+    "info": "The mighty Minotaur of Crete, combining brutal strength with impenetrable defense"
+  },
+  {
+    "id": 59,
+    "img": "characters_images/perses.webp",
+    "character": "Perses",
+    "type": "defensive",
+    "health": 1250,
+    "attackPower": 70,
+    "specialAbility": {
+      "name": "Titan's Fortitude",
+      "type": "defense",
+      "value": 175
+    },
+    "info": "Titan of destruction who channels his power into impenetrable defenses"
+  },
+  {
+    "id": 60,
+    "img": "characters_images/erebus.webp",
+    "character": "Erebus",
+    "type": "defensive",
+    "health": 1150,
+    "attackPower": 60,
+    "specialAbility": {
+      "name": "Shadow Barrier",
+      "type": "defense",
+      "value": 185
+    },
+    "info": "Primordial deity of darkness who creates impenetrable barriers of shadow"
+  }
+]
